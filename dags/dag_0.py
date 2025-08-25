@@ -2,8 +2,6 @@ from airflow import DAG
 from airflow.operators.bash import BashOperator
 from datetime import datetime
 
-# Importar utilidades desde el mismo bundle
-from utils.helpers import mi_funcion_helper
 
 dag = DAG(
     'mi_dag_desde_git',
